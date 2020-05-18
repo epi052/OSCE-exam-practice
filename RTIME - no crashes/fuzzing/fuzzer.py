@@ -52,7 +52,7 @@ session = Session(target=target, restart_interval=150, fuzz_loggers=loggers)
 s_initialize("vulnserver-fuzzcase")  # arbitrary name for overall fuzz case
 
 # fuzzing directives go here
-s_string("COMMAND TO FUZZ", fuzzable=False)  # change me 
+s_string("RTIME", fuzzable=False)  # change me 
 s_delim(" ", fuzzable=False)
 s_string("something")
 
