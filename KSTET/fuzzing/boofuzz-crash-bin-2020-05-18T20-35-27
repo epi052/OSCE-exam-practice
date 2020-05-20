@@ -1,0 +1,245 @@
+{
+  "656877351": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "exception_address": 656877351,
+      "context_dump": "CONTEXT DUMP\n  EIP: 27272727 Unable to disassemble at 27272727\n  EAX: 019af990 (  26933648) -> KSTET '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00304fb8 (   3166136) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 27272727 ( 656877351) -> N/A\n  ESP: 019af9e0 (  26933728) -> '''''''''''''''''''' (stack)\n  +00: 27272727 ( 656877351) -> N/A\n  +04: 27272727 ( 656877351) -> N/A\n  +08: 27272727 ( 656877351) -> N/A\n  +0c: 27272727 ( 656877351) -> N/A\n  +10: 27272727 ( 656877351) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "extra": 301,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 27272727",
+      "disasm_around": [
+        [
+          656877351,
+          "Unable to disassemble"
+        ]
+      ],
+      "context": {},
+      "violation_thread_id": 3492,
+      "violation_address": 656877351,
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "724249387": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "extra": 1102,
+      "context_dump": "CONTEXT DUMP\n  EIP: 2b2b2b2b Unable to disassemble at 2b2b2b2b\n  EAX: 0181f990 (  25295248) -> KSTET ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 004d4fb8 (   5066680) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 2b2b2b2b ( 724249387) -> N/A\n  ESP: 0181f9e0 (  25295328) -> ++++++++++++++++++++ (stack)\n  +00: 2b2b2b2b ( 724249387) -> N/A\n  +04: 2b2b2b2b ( 724249387) -> N/A\n  +08: 2b2b2b2b ( 724249387) -> N/A\n  +0c: 2b2b2b2b ( 724249387) -> N/A\n  +10: 2b2b2b2b ( 724249387) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "exception_address": 724249387,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 2b2b2b2b",
+      "violation_address": 724249387,
+      "context": {},
+      "violation_thread_id": 5416,
+      "disasm_around": [
+        [
+          724249387,
+          "Unable to disassemble"
+        ]
+      ],
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "741092396": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "extra": 751,
+      "context_dump": "CONTEXT DUMP\n  EIP: 2c2c2c2c Unable to disassemble at 2c2c2c2c\n  EAX: 0198f990 (  26802576) -> KSTET ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00484fb8 (   4739000) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 2c2c2c2c ( 741092396) -> N/A\n  ESP: 0198f9e0 (  26802656) -> ,,,,,,,,,,,,,,,,,,,, (stack)\n  +00: 2c2c2c2c ( 741092396) -> N/A\n  +04: 2c2c2c2c ( 741092396) -> N/A\n  +08: 2c2c2c2c ( 741092396) -> N/A\n  +0c: 2c2c2c2c ( 741092396) -> N/A\n  +10: 2c2c2c2c ( 741092396) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "exception_address": 741092396,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 2c2c2c2c",
+      "violation_address": 741092396,
+      "context": {},
+      "violation_thread_id": 2904,
+      "disasm_around": [
+        [
+          741092396,
+          "Unable to disassemble"
+        ]
+      ],
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "1029782881": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "exception_address": 1029782881,
+      "context_dump": "CONTEXT DUMP\n  EIP: 3d613d61 Unable to disassemble at 3d613d61\n  EAX: 019bf990 (  26999184) -> KSTET a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a= (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 003b4fb8 (   3887032) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 3d613d61 (1029782881) -> N/A\n  ESP: 019bf9e0 (  26999264) -> a=a=a=a=a=a=a=a=a=a= (stack)\n  +00: 3d613d61 (1029782881) -> N/A\n  +04: 3d613d61 (1029782881) -> N/A\n  +08: 3d613d61 (1029782881) -> N/A\n  +0c: 3d613d61 (1029782881) -> N/A\n  +10: 3d613d61 (1029782881) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "extra": 601,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 3d613d61",
+      "disasm_around": [
+        [
+          1029782881,
+          "Unable to disassemble"
+        ]
+      ],
+      "context": {},
+      "violation_thread_id": 4248,
+      "violation_address": 1029782881,
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "1061109567": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "extra": 503,
+      "context_dump": "CONTEXT DUMP\n  EIP: 3f3f3f3f Unable to disassemble at 3f3f3f3f\n  EAX: 019af990 (  26933648) -> KSTET ?????????????????????????????????????????????????????????????????????????????????????????????? (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00584fb8 (   5787576) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 3f3f3f3f (1061109567) -> N/A\n  ESP: 019af9e0 (  26933728) -> ???????????????????? (stack)\n  +00: 3f3f3f3f (1061109567) -> N/A\n  +04: 3f3f3f3f (1061109567) -> N/A\n  +08: 3f3f3f3f (1061109567) -> N/A\n  +0c: 3f3f3f3f (1061109567) -> N/A\n  +10: 3f3f3f3f (1061109567) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "exception_address": 1061109567,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 3f3f3f3f",
+      "violation_address": 1061109567,
+      "context": {},
+      "violation_thread_id": 4708,
+      "disasm_around": [
+        [
+          1061109567,
+          "Unable to disassemble"
+        ]
+      ],
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "1094795585": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "exception_address": 1094795585,
+      "context_dump": "CONTEXT DUMP\n  EIP: 41414141 Unable to disassemble at 41414141\n  EAX: 0189f990 (  25819536) -> KSTET /.:/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAta=Cy (stack)\n  EBX: 00000064 (       100) -> N/A\n  ECX: 003a1328 (   3805992) -> c:+:ogramFiles=C:\\Program FilesPSModulePath=C:\\Users\\vagrant\\Documents\\PowerShell\\Modules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR (heap)\n  EDX: 0000db72 (     56178) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 41414141 (1094795585) -> N/A\n  ESP: 0189f9e0 (  25819616) -> AAAAAAAAAAAAAAAAAAAAta=Cy (stack)\n  +00: 41414141 (1094795585) -> N/A\n  +04: 41414141 (1094795585) -> N/A\n  +08: 41414141 (1094795585) -> N/A\n  +0c: 41414141 (1094795585) -> N/A\n  +10: 41414141 (1094795585) -> N/A\n  +14: 433d6174 (1128096116) -> N/A\n",
+      "extra": 2,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 41414141",
+      "disasm_around": [
+        [
+          1094795585,
+          "Unable to disassemble"
+        ]
+      ],
+      "context": {},
+      "violation_thread_id": 5160,
+      "violation_address": 1094795585,
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "1566399837": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "exception_address": 1566399837,
+      "context_dump": "CONTEXT DUMP\n  EIP: 5d5d5d5d Unable to disassemble at 5d5d5d5d\n  EAX: 0183f990 (  25426320) -> KSTET ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00544fb8 (   5525432) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 5d5d5d5d (1566399837) -> N/A\n  ESP: 0183f9e0 (  25426400) -> ]]]]]]]]]]]]]]]]]]]] (stack)\n  +00: 5d5d5d5d (1566399837) -> N/A\n  +04: 5d5d5d5d (1566399837) -> N/A\n  +08: 5d5d5d5d (1566399837) -> N/A\n  +0c: 5d5d5d5d (1566399837) -> N/A\n  +10: 5d5d5d5d (1566399837) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "extra": 901,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 5d5d5d5d",
+      "disasm_around": [
+        [
+          1566399837,
+          "Unable to disassemble"
+        ]
+      ],
+      "context": {},
+      "violation_thread_id": 4788,
+      "violation_address": 1566399837,
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "2105376125": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "exception_address": 2105376125,
+      "context_dump": "CONTEXT DUMP\n  EIP: 7d7d7d7d Unable to disassemble at 7d7d7d7d\n  EAX: 0190f990 (  26278288) -> KSTET }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}} (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00394fb8 (   3755960) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 7d7d7d7d (2105376125) -> N/A\n  ESP: 0190f9e0 (  26278368) -> }}}}}}}}}}}}}}}}}}}} (stack)\n  +00: 7d7d7d7d (2105376125) -> N/A\n  +04: 7d7d7d7d (2105376125) -> N/A\n  +08: 7d7d7d7d (2105376125) -> N/A\n  +0c: 7d7d7d7d (2105376125) -> N/A\n  +10: 7d7d7d7d (2105376125) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "extra": 1201,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at 7d7d7d7d",
+      "disasm_around": [
+        [
+          2105376125,
+          "Unable to disassemble"
+        ]
+      ],
+      "context": {},
+      "violation_thread_id": 3556,
+      "violation_address": 2105376125,
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ],
+  "4278124286": [
+    {
+      "exception_module": "[INVALID]",
+      "stack_unwind": [],
+      "extra": 1351,
+      "context_dump": "CONTEXT DUMP\n  EIP: fefefefe Unable to disassemble at fefefefe\n  EAX: 0187f990 (  25688464) -> KSTET  (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00314fb8 (   3231672) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: fefefefe (4278124286) -> N/A\n  ESP: 0187f9e0 (  25688544) -> pB\\Z\\1`GwPO1BlGw\\`GwzwZZPZ@;12Z2ZD2Z\\h\\1Z, (stack)\n  +00: fefefefe (4278124286) -> N/A\n  +04: fefefefe (4278124286) -> N/A\n  +08: fefefefe (4278124286) -> N/A\n  +0c: fefefefe (4278124286) -> N/A\n  +10: fefefefe (4278124286) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+      "exception_address": 4278124286,
+      "write_violation": 0,
+      "disasm": "Unable to disassemble at fefefefe",
+      "violation_address": 4278124286,
+      "context": {},
+      "violation_thread_id": 3508,
+      "disasm_around": [
+        [
+          4278124286,
+          "Unable to disassemble"
+        ]
+      ],
+      "seh_unwind": [
+        [
+          4294967295,
+          2000937309,
+          "ntdll.dll:7743e15d"
+        ]
+      ]
+    }
+  ]
+}
