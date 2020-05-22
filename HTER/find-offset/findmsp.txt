@@ -3,10 +3,10 @@
   Corelan Team - https://www.corelan.be
 ================================================================================
   OS : win7, release 6.1.7601
-  Process being debugged : vulnserver (pid 3480)
-  Current mona arguments: C:\Program Files\Windows Kits\10\Debuggers\x86\mona.py findmsp -c1 ABC -c2 def -c3 0123456789
+  Process being debugged : vulnserver (pid 1592)
+  Current mona arguments: C:\Program Files\Windows Kits\10\Debuggers\x86\mona.py findmsp -c1 ABCDEF -c2 abcdef -c3 0123456789
 ================================================================================
-  2020-05-22 05:41:45
+  2020-05-22 08:12:44
 ================================================================================
 -----------------------------------------------------------------------------------------------------------------------------------------
  Module info :
@@ -20,6 +20,7 @@
  0x75f30000 | 0x75f7b000 | 0x0004b000 | True   | True    | True  |  True    | True   | 6.1.7601.18847 [KERNELBASE.dll] (C:\Windows\system32\KERNELBASE.dll)
  0x758c0000 | 0x758fc000 | 0x0003c000 | True   | True    | True  |  True    | True   | 6.1.7601.18254 [mswsock.dll] (C:\Windows\system32\mswsock.dll)
  0x77740000 | 0x777dd000 | 0x0009d000 | True   | True    | True  |  True    | True   | 1.626.7601.18454 [USP10.dll] (C:\Windows\system32\USP10.dll)
+ 0x75db0000 | 0x75dfc000 | 0x0004c000 | True   | True    | True  |  True    | True   | 6.1.7601.18777 [apphelp.dll] (C:\Windows\system32\apphelp.dll)
  0x766e0000 | 0x7672e000 | 0x0004e000 | True   | True    | True  |  True    | True   | 6.1.7601.18898 [GDI32.dll] (C:\Windows\system32\GDI32.dll)
  0x00400000 | 0x00407000 | 0x00007000 | False  | False   | False |  False   | False  | -1.0- [vulnserver.exe] (C:\Users\vagrant\Downloads\vulnserver-master\vulnserver.exe)
  0x76600000 | 0x766d4000 | 0x000d4000 | True   | True    | True  |  True    | True   | 6.1.7601.18847 [kernel32.dll] (C:\Windows\system32\kernel32.dll)
@@ -32,16 +33,10 @@
  0x767c0000 | 0x767df000 | 0x0001f000 | True   | True    | True  |  True    | True   | 6.1.7601.17514 [IMM32.DLL] (C:\Windows\system32\IMM32.DLL)
 -----------------------------------------------------------------------------------------------------------------------------------------
 [+] Looking for cyclic pattern in memory
-    Cyclic pattern (normal) found at 0x007437fd (length 2051 bytes)
-    Cyclic pattern (normal) found at 0x0074390b (length 1781 bytes)
-    Cyclic pattern (normal) found at 0x00743a19 (length 1511 bytes)
-    Cyclic pattern (normal) found at 0x00743b27 (length 1241 bytes)
-    Cyclic pattern (normal) found at 0x00743c35 (length 971 bytes)
-    Cyclic pattern (normal) found at 0x00743d43 (length 701 bytes)
-    Cyclic pattern (normal) found at 0x00743e51 (length 431 bytes)
-    Cyclic pattern (normal) found at 0x00743f5f (length 161 bytes)
+    Cyclic pattern (normal) found at 0x003a5415 (length 2051 bytes)
+    Cyclic pattern (normal) found at 0x003a584d (length 971 bytes)
 [+] Examining SEH chain
 [+] Examining stack (entire stack) - looking for cyclic pattern
-    Walking stack from 0x0181f000 to 0x0181fffc (0x00000ffc bytes)
+    Walking stack from 0x01a0f000 to 0x01a0fffc (0x00000ffc bytes)
 [+] Examining stack (entire stack) - looking for pointers to cyclic pattern
-    Walking stack from 0x0181f000 to 0x0181fffc (0x00000ffc bytes)
+    Walking stack from 0x01a0f000 to 0x01a0fffc (0x00000ffc bytes)
