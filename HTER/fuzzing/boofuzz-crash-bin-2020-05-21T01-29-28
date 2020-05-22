@@ -1,0 +1,520 @@
+{
+   "2010786620":[
+      {
+         "exception_module":"ntdll.dll",
+         "stack_unwind":[
+            "ntdll.dll:77d8604a",
+            "ntdll.dll:77d85dd0",
+            "msvcrt.dll:779b9d45",
+            "vulnserver.exe:00401875",
+            "kernel32.dll:7664ee6c",
+            "ntdll.dll:77d93ab3",
+            "ntdll.dll:77d93a86"
+         ],
+         "exception_address":2010786620,
+         "context_dump":"CONTEXT DUMP\n  EIP: 77da2b3c mov ecx,[ecx+0x4]\n  EAX: 018a8c00 (  25857024) ->  (heap)\n  EBX: 00330000 (   3342336) -> #3333433`\"   8333P33+383\"` (heap)\n  ECX: 00000000 (         0) -> N/A\n  EDX: 00000000 (         0) -> N/A\n  EDI: 018a8408 (  25854984) -> L (heap)\n  ESI: 018a8bf8 (  25857016) -> J (heap)\n  EBP: 0187f848 (  25688136) -> 4J`wOw3P3P3P3~P333d]wM]w (stack)\n  ESP: 0187f824 (  25688100) -> 334J`wOw3P3P3P3~P333d (stack)\n  +00: 00000081 (       129) -> N/A\n  +04: 018a8000 (  25853952) -> 3 (heap)\n  +08: 00330000 (   3342336) -> #3333433`\"   8333P33+383\"` (heap)\n  +0c: 018a8bf8 (  25857016) -> J (heap)\n  +10: 00000000 (         0) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+         "extra":375,
+         "write_violation":0,
+         "disasm":"mov ecx,[ecx+0x4]",
+         "disasm_around":[
+            [
+               2010786590,
+               "xor [esi],eax"
+            ],
+            [
+               2010786592,
+               "mov al,[esi+0x1]"
+            ],
+            [
+               2010786595,
+               "xor al,[esi+0x2]"
+            ],
+            [
+               2010786598,
+               "xor al,[esi]"
+            ],
+            [
+               2010786600,
+               "cmp [esi+0x3],al"
+            ],
+            [
+               2010786603,
+               "jnz 0x77dba1be"
+            ],
+            [
+               2010786609,
+               "mov edx,[esi+0xc]"
+            ],
+            [
+               2010786612,
+               "lea eax,[esi+0x8]"
+            ],
+            [
+               2010786615,
+               "mov ecx,[eax]"
+            ],
+            [
+               2010786617,
+               "mov [ebp-0x10],ecx"
+            ],
+            [
+               2010786620,
+               "mov ecx,[ecx+0x4]"
+            ],
+            [
+               2010786623,
+               "mov [ebp-0x14],edx"
+            ],
+            [
+               2010786626,
+               "mov edx,[edx]"
+            ],
+            [
+               2010786628,
+               "cmp edx,ecx"
+            ],
+            [
+               2010786630,
+               "jnz 0x77dba1db"
+            ],
+            [
+               2010786636,
+               "cmp edx,eax"
+            ],
+            [
+               2010786638,
+               "jnz 0x77dba1db"
+            ],
+            [
+               2010786644,
+               "movzx eax,[esi]"
+            ],
+            [
+               2010786647,
+               "sub [ebx+0x78],eax"
+            ],
+            [
+               2010786650,
+               "mov eax,[ebx+0xb8]"
+            ],
+            [
+               2010786656,
+               "test eax,eax"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":3012,
+         "violation_address":4,
+         "seh_unwind":[
+            [
+               25690052,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ],
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "52428":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":52428,
+         "context_dump":"CONTEXT DUMP\n  EIP: 0000cccc Unable to disassemble at 0000cccc\n  EAX: 01aef5e0 (  28243424) -> ;##duF# (stack)\n  EBX: 00000064 (       100) -> N/A\n  ECX: 00759b08 (   7707400) ->  (heap)\n  EDX: 0000cccc (     52428) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: cccccccc (3435973836) -> N/A\n  ESP: 01aef9e0 (  28244448) -> uCCB[Y[`wuBlw[`wiwYYPY2Y2Y2Y`[h[DY, (stack)\n  +00: 00759708 (   7706376) ->  (heap)\n  +04: 000000cc (       204) -> N/A\n  +08: 00000001 (         1) -> N/A\n  +0c: 00000000 (         0) -> N/A\n  +10: 00000000 (         0) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+         "extra":133,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 0000cccc",
+         "disasm_around":[
+            [
+               52428,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":4584,
+         "violation_address":52428,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "2010671403":[
+      {
+         "exception_module":"ntdll.dll",
+         "stack_unwind":[
+            "ntdll.dll:77d8604a",
+            "ntdll.dll:77d85dd0",
+            "msvcrt.dll:779b9d45",
+            "vulnserver.exe:00401866",
+            "kernel32.dll:7664ee6c",
+            "ntdll.dll:77d93ab3",
+            "ntdll.dll:77d93a86"
+         ],
+         "exception_address":2010671403,
+         "context_dump":"CONTEXT DUMP\n  EIP: 77d8692b xor cl,[esi+0x2]\n  EAX: 0000a7ff (     43007) -> N/A\n  EBX: 00590000 (   5832704) -> bYYYYZYYk;l6Q   X8/b/bYYYbPYY+YY8Yl6Q0> (heap)\n  ECX: 00000000 (         0) -> N/A\n  EDX: 01620000 (  23199744) -> c2YYYb@br/b/bj9'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' (heap)\n  EDI: 01622c60 (  23211104) ->  (heap)\n  ESI: 01676c58 (  23555160) -> N/A\n  EBP: 019af848 (  26933320) -> 4J`w`,bnRwYPYPYksPY`bYksY`b[bYd]w]wZb (stack)\n  ESP: 019af824 (  26933284) -> XbY]w4J`w`,bnRwYPYPYksPY`bYksY`b[bYd (stack)\n  +00: 00000201 (       513) -> N/A\n  +04: 01621c58 (  23207000) -> YY (heap)\n  +08: 00590000 (   5832704) -> bYYYYZYYk;l6Q   X8/b/bYYYbPYY+YY8Yl6Q0> (heap)\n  +0c: 00000000 (         0) -> N/A\n  +10: 0000000a (        10) -> N/A\n  +14: 019af818 (  26933272) -> RwPYXbXbY]w4J`w`,bnRwYPYPYksPY`bYksY`b[bY (stack)\n",
+         "extra":336,
+         "write_violation":0,
+         "disasm":"xor cl,[esi+0x2]",
+         "disasm_around":[
+            [
+               2010671370,
+               "jnz 0x77da0cd8"
+            ],
+            [
+               2010671376,
+               "xor al,al"
+            ],
+            [
+               2010671378,
+               "mov [edi+0x6],al"
+            ],
+            [
+               2010671381,
+               "mov eax,[ebp+0x18]"
+            ],
+            [
+               2010671384,
+               "mov byte [edi+0x3],0x0"
+            ],
+            [
+               2010671388,
+               "mov [edi],ax"
+            ],
+            [
+               2010671391,
+               "mov ecx,[ebx+0x4c]"
+            ],
+            [
+               2010671394,
+               "shr ecx,0x14"
+            ],
+            [
+               2010671397,
+               "and cl,[ebx+0x52]"
+            ],
+            [
+               2010671400,
+               "lea esi,[edi+eax*8]"
+            ],
+            [
+               2010671403,
+               "xor cl,[esi+0x2]"
+            ],
+            [
+               2010671406,
+               "mov [ebp-0x18],esi"
+            ],
+            [
+               2010671409,
+               "test cl,0x1"
+            ],
+            [
+               2010671412,
+               "jz 0x77da2b15"
+            ],
+            [
+               2010671418,
+               "mov cx,[ebx+0x54]"
+            ],
+            [
+               2010671422,
+               "xor cx,ax"
+            ],
+            [
+               2010671425,
+               "cmp byte [ebp+0x10],0x0"
+            ],
+            [
+               2010671429,
+               "mov [esi+0x4],cx"
+            ],
+            [
+               2010671433,
+               "mov byte [edi+0x7],0x0"
+            ],
+            [
+               2010671437,
+               "jnz 0x77d5e91e"
+            ],
+            [
+               2010671443,
+               "movzx ecx,ax"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":3888,
+         "violation_address":23555162,
+         "seh_unwind":[
+            [
+               26935236,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ],
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      },
+      {
+         "exception_module":"ntdll.dll",
+         "stack_unwind":[
+            "ntdll.dll:77d8604a",
+            "ntdll.dll:77d85dd0",
+            "msvcrt.dll:779b9d45",
+            "vulnserver.exe:00401866",
+            "kernel32.dll:7664ee6c",
+            "ntdll.dll:77d93ab3",
+            "ntdll.dll:77d93a86"
+         ],
+         "exception_address":2010671403,
+         "context_dump":"CONTEXT DUMP\n  EIP: 77d8692b xor cl,[esi+0x2]\n  EAX: 0000b7ff (     47103) -> N/A\n  EBX: 00310000 (   3211264) -> pz:1111211+qaz:8   H8//111P11+118180> (heap)\n  ECX: 00000001 (         1) -> N/A\n  EDX: 01950000 (  26542080) -> #pz (stack)\n  EDI: 01952c60 (  26553440) -> q{8 (heap)\n  ESI: 019aec58 (  26930264) -> N/A\n  EBP: 0194f848 (  26540104) -> 4J`w`,\\w1P1P1+sqP1`1+s1`[1d]w$]wZ (stack)\n  ESP: 0194f824 (  26540068) -> X1]w4J`w`,\\w1P1P1+sqP1`1+s1`[1d (stack)\n  +00: 00000201 (       513) -> N/A\n  +04: 01951c58 (  26549336) -> {;11 (heap)\n  +08: 00310000 (   3211264) -> pz:1111211+qaz:8   H8//111P11+118180> (heap)\n  +0c: 00000000 (         0) -> N/A\n  +10: 0000000a (        10) -> N/A\n  +14: 0194f818 (  26540056) -> \\wP1XX1]w4J`w`,\\w1P1P1+sqP1`1+s1`[1 (stack)\n",
+         "extra":345,
+         "write_violation":0,
+         "disasm":"xor cl,[esi+0x2]",
+         "disasm_around":[
+            [
+               2010671370,
+               "jnz 0x77da0cd8"
+            ],
+            [
+               2010671376,
+               "xor al,al"
+            ],
+            [
+               2010671378,
+               "mov [edi+0x6],al"
+            ],
+            [
+               2010671381,
+               "mov eax,[ebp+0x18]"
+            ],
+            [
+               2010671384,
+               "mov byte [edi+0x3],0x0"
+            ],
+            [
+               2010671388,
+               "mov [edi],ax"
+            ],
+            [
+               2010671391,
+               "mov ecx,[ebx+0x4c]"
+            ],
+            [
+               2010671394,
+               "shr ecx,0x14"
+            ],
+            [
+               2010671397,
+               "and cl,[ebx+0x52]"
+            ],
+            [
+               2010671400,
+               "lea esi,[edi+eax*8]"
+            ],
+            [
+               2010671403,
+               "xor cl,[esi+0x2]"
+            ],
+            [
+               2010671406,
+               "mov [ebp-0x18],esi"
+            ],
+            [
+               2010671409,
+               "test cl,0x1"
+            ],
+            [
+               2010671412,
+               "jz 0x77da2b15"
+            ],
+            [
+               2010671418,
+               "mov cx,[ebx+0x54]"
+            ],
+            [
+               2010671422,
+               "xor cx,ax"
+            ],
+            [
+               2010671425,
+               "cmp byte [ebp+0x10],0x0"
+            ],
+            [
+               2010671429,
+               "mov [esi+0x4],cx"
+            ],
+            [
+               2010671433,
+               "mov byte [edi+0x7],0x0"
+            ],
+            [
+               2010671437,
+               "jnz 0x77d5e91e"
+            ],
+            [
+               2010671443,
+               "movzx ecx,ax"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":5680,
+         "violation_address":26930266,
+         "seh_unwind":[
+            [
+               26542020,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ],
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "2010672921":[
+      {
+         "exception_module":"ntdll.dll",
+         "stack_unwind":[
+            "ntdll.dll:77d8f5a5",
+            "ntdll.dll:77d8f4f6",
+            "ntdll.dll:77d85dd0",
+            "msvcrt.dll:779b9d45",
+            "vulnserver.exe:00401866",
+            "kernel32.dll:7664ee6c",
+            "ntdll.dll:77d93ab3",
+            "ntdll.dll:77d93a86"
+         ],
+         "extra":1220,
+         "context_dump":"CONTEXT DUMP\n  EIP: 77d86f19 mov [esi+eax*8+0x4],cx\n  EAX: 00005200 (     20992) -> N/A\n  EBX: 00725160 (   7491936) -> R (heap)\n  ECX: 000046bd (     18109) -> N/A\n  EDX: 00000002 (         2) -> N/A\n  EDI: 00870000 (   8847360) -> OqsOx.=   B8rrqP+8.=u (heap)\n  ESI: 00725160 (   7491936) -> R (heap)\n  EBP: 0194f820 (  26540064) -> Tw_rHR4w@5DwPPhQrsd (stack)\n  ESP: 0194f7f8 (  26540024) -> rhQrTw_rHR4w@5DwPPhQrs (stack)\n  +00: 00001008 (      4104) -> N/A\n  +04: 00870000 (   8847360) -> OqsOx.=   B8rrqP+8.=u (heap)\n  +08: 00000000 (         0) -> N/A\n  +0c: 00727fe8 (   7503848) -> 8q8qr (heap)\n  +10: 000e8000 (    950272) -> N/A\n  +14: 0087fe00 (   8912384) ->  (heap)\n",
+         "exception_address":2010672921,
+         "write_violation":1,
+         "disasm":"mov [esi+eax*8+0x4],cx",
+         "violation_address":7659876,
+         "context":{
+
+         },
+         "violation_thread_id":908,
+         "disasm_around":[
+            [
+               2010672891,
+               "mov eax,[ebp+0x10]"
+            ],
+            [
+               2010672894,
+               "mov byte [esi+0x2],0x0"
+            ],
+            [
+               2010672898,
+               "mov byte [esi+0x7],0x0"
+            ],
+            [
+               2010672902,
+               "add [eax],ecx"
+            ],
+            [
+               2010672904,
+               "mov cx,[eax]"
+            ],
+            [
+               2010672907,
+               "mov [esi],cx"
+            ],
+            [
+               2010672910,
+               "mov cx,[eax]"
+            ],
+            [
+               2010672913,
+               "xor cx,[edi+0x54]"
+            ],
+            [
+               2010672917,
+               "mov eax,[eax]"
+            ],
+            [
+               2010672919,
+               "mov ebx,esi"
+            ],
+            [
+               2010672921,
+               "mov [esi+eax*8+0x4],cx"
+            ],
+            [
+               2010672926,
+               "jmp 0x77d86295"
+            ],
+            [
+               2010672931,
+               "lea esi,[eax-0x8]"
+            ],
+            [
+               2010672934,
+               "mov [ebp+0x14],esi"
+            ],
+            [
+               2010672937,
+               "xor edi,edi"
+            ],
+            [
+               2010672939,
+               "cmp [ebx+0x4c],edi"
+            ],
+            [
+               2010672942,
+               "jz 0x77d86f46"
+            ],
+            [
+               2010672944,
+               "mov eax,[ebx+0x50]"
+            ],
+            [
+               2010672947,
+               "xor [esi],eax"
+            ],
+            [
+               2010672949,
+               "mov al,[esi+0x2]"
+            ],
+            [
+               2010672952,
+               "xor al,[esi+0x1]"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               26542020,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ],
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ]
+}
