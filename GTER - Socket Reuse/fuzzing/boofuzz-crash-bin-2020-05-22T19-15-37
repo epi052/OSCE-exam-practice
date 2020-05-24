@@ -1,0 +1,310 @@
+{
+   "1631412541":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":1631412541,
+         "context_dump":"CONTEXT DUMP\n  EIP: 613d613d Unable to disassemble at 613d613d\n  EAX: 019cf940 (  27064640) -> GTER a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=a=acume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 003d1378 (   4002680) -> =PO=odules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00002a5f (     10847) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 613d613d (1631412541) -> N/A\n  ESP: 019cf9e0 (  27064800) -> =a=a=a=a=a=a=a=a=a=acume (stack)\n  +00: 613d613d (1631412541) -> N/A\n  +04: 613d613d (1631412541) -> N/A\n  +08: 613d613d (1631412541) -> N/A\n  +0c: 613d613d (1631412541) -> N/A\n  +10: 613d613d (1631412541) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "extra":601,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 613d613d",
+         "disasm_around":[
+            [
+               1631412541,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":5132,
+         "violation_address":1631412541,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "1566399837":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":1566399837,
+         "context_dump":"CONTEXT DUMP\n  EIP: 5d5d5d5d Unable to disassemble at 5d5d5d5d\n  EAX: 01a1f940 (  27392320) -> GTER ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]cume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 007a1378 (   8000376) -> zPOzodules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 0000b4f4 (     46324) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 5d5d5d5d (1566399837) -> N/A\n  ESP: 01a1f9e0 (  27392480) -> ]]]]]]]]]]]]]]]]]]]]cume (stack)\n  +00: 5d5d5d5d (1566399837) -> N/A\n  +04: 5d5d5d5d (1566399837) -> N/A\n  +08: 5d5d5d5d (1566399837) -> N/A\n  +0c: 5d5d5d5d (1566399837) -> N/A\n  +10: 5d5d5d5d (1566399837) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "extra":901,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 5d5d5d5d",
+         "disasm_around":[
+            [
+               1566399837,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":5612,
+         "violation_address":1566399837,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "656877351":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":656877351,
+         "context_dump":"CONTEXT DUMP\n  EIP: 27272727 Unable to disassemble at 27272727\n  EAX: 019cf940 (  27064640) -> GTER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' (stack)\n  EBX: 00000064 (       100) -> N/A\n  ECX: 007cb518 (   8172824) -> EH (heap)\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 27272727 ( 656877351) -> N/A\n  ESP: 019cf9e0 (  27064800) -> '''''''''''''''''''' (stack)\n  +00: 27272727 ( 656877351) -> N/A\n  +04: 27272727 ( 656877351) -> N/A\n  +08: 27272727 ( 656877351) -> N/A\n  +0c: 27272727 ( 656877351) -> N/A\n  +10: 27272727 ( 656877351) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+         "extra":306,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 27272727",
+         "disasm_around":[
+            [
+               656877351,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":5348,
+         "violation_address":656877351,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "1128481603":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "extra":151,
+         "context_dump":"CONTEXT DUMP\n  EIP: 43434343 Unable to disassemble at 43434343\n  EAX: 018af940 (  25884992) -> GTER CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 004e1378 (   5116792) -> NPONodules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00000cd0 (      3280) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 43434343 (1128481603) -> N/A\n  ESP: 018af9e0 (  25885152) -> CCCCCCCCCCCCCCCCCCCCcume (stack)\n  +00: 43434343 (1128481603) -> N/A\n  +04: 43434343 (1128481603) -> N/A\n  +08: 43434343 (1128481603) -> N/A\n  +0c: 43434343 (1128481603) -> N/A\n  +10: 43434343 (1128481603) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "exception_address":1128481603,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 43434343",
+         "violation_address":1128481603,
+         "context":{
+
+         },
+         "violation_thread_id":2960,
+         "disasm_around":[
+            [
+               1128481603,
+               "Unable to disassemble"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      },
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "extra":151,
+         "context_dump":"CONTEXT DUMP\n  EIP: 43434343 Unable to disassemble at 43434343\n  EAX: 0194f940 (  26540352) -> GTER CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00311378 (   3216248) -> 1PO1odules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00007242 (     29250) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 43434343 (1128481603) -> N/A\n  ESP: 0194f9e0 (  26540512) -> CCCCCCCCCCCCCCCCCCCCcume (stack)\n  +00: 43434343 (1128481603) -> N/A\n  +04: 43434343 (1128481603) -> N/A\n  +08: 43434343 (1128481603) -> N/A\n  +0c: 43434343 (1128481603) -> N/A\n  +10: 43434343 (1128481603) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "exception_address":1128481603,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 43434343",
+         "violation_address":1128481603,
+         "context":{
+
+         },
+         "violation_thread_id":2736,
+         "disasm_around":[
+            [
+               1128481603,
+               "Unable to disassemble"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "1094795585":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":1094795585,
+         "context_dump":"CONTEXT DUMP\n  EIP: 41414141 Unable to disassemble at 41414141\n  EAX: 0085f940 (   8780096) -> GTER /.:/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA (stack)\n  EBX: 00000064 (       100) -> N/A\n  ECX: 00346190 (   3432848) -> N'7 (heap)\n  EDX: 00000000 (         0) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 41414141 (1094795585) -> N/A\n  ESP: 0085f9e0 (   8780256) -> AAAAAAAAAAAAAAAAAAAA (stack)\n  +00: 41414141 (1094795585) -> N/A\n  +04: 41414141 (1094795585) -> N/A\n  +08: 41414141 (1094795585) -> N/A\n  +0c: 41414141 (1094795585) -> N/A\n  +10: 41414141 (1094795585) -> N/A\n  +14: 00000000 (         0) -> N/A\n",
+         "extra":2,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 41414141",
+         "disasm_around":[
+            [
+               1094795585,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":3092,
+         "violation_address":1094795585,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "4278124286":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "extra":1351,
+         "context_dump":"CONTEXT DUMP\n  EIP: fefefefe Unable to disassemble at fefefefe\n  EAX: 0191f940 (  26343744) -> GTER  (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00541378 (   5510008) -> TPOTodules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00004a0c (     18956) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: fefefefe (4278124286) -> N/A\n  ESP: 0191f9e0 (  26343904) -> cume\\JpB.,.T`wTBlw.`wq,,P,@;T2,2,D2,.h.T,, (stack)\n  +00: fefefefe (4278124286) -> N/A\n  +04: fefefefe (4278124286) -> N/A\n  +08: fefefefe (4278124286) -> N/A\n  +0c: fefefefe (4278124286) -> N/A\n  +10: fefefefe (4278124286) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "exception_address":4278124286,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at fefefefe",
+         "violation_address":4278124286,
+         "context":{
+
+         },
+         "violation_thread_id":1432,
+         "disasm_around":[
+            [
+               4278124286,
+               "Unable to disassemble"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "741092396":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "extra":751,
+         "context_dump":"CONTEXT DUMP\n  EIP: 2c2c2c2c Unable to disassemble at 2c2c2c2c\n  EAX: 019df940 (  27130176) -> GTER ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,cume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 00301378 (   3150712) -> 0PO0odules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 0000255c (      9564) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 2c2c2c2c ( 741092396) -> N/A\n  ESP: 019df9e0 (  27130336) -> ,,,,,,,,,,,,,,,,,,,,cume (stack)\n  +00: 2c2c2c2c ( 741092396) -> N/A\n  +04: 2c2c2c2c ( 741092396) -> N/A\n  +08: 2c2c2c2c ( 741092396) -> N/A\n  +0c: 2c2c2c2c ( 741092396) -> N/A\n  +10: 2c2c2c2c ( 741092396) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "exception_address":741092396,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 2c2c2c2c",
+         "violation_address":741092396,
+         "context":{
+
+         },
+         "violation_thread_id":4416,
+         "disasm_around":[
+            [
+               741092396,
+               "Unable to disassemble"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "2105376125":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "exception_address":2105376125,
+         "context_dump":"CONTEXT DUMP\n  EIP: 7d7d7d7d Unable to disassemble at 7d7d7d7d\n  EAX: 0198f940 (  26802496) -> GTER }}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}cume (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 002c1378 (   2888568) -> ,PO,odules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00005ec9 (     24265) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 7d7d7d7d (2105376125) -> N/A\n  ESP: 0198f9e0 (  26802656) -> }}}}}}}}}}}}}}}}}}}}cume (stack)\n  +00: 7d7d7d7d (2105376125) -> N/A\n  +04: 7d7d7d7d (2105376125) -> N/A\n  +08: 7d7d7d7d (2105376125) -> N/A\n  +0c: 7d7d7d7d (2105376125) -> N/A\n  +10: 7d7d7d7d (2105376125) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "extra":1201,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 7d7d7d7d",
+         "disasm_around":[
+            [
+               2105376125,
+               "Unable to disassemble"
+            ]
+         ],
+         "context":{
+
+         },
+         "violation_thread_id":4328,
+         "violation_address":2105376125,
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ],
+   "1549556828":[
+      {
+         "exception_module":"[INVALID]",
+         "stack_unwind":[
+
+         ],
+         "extra":451,
+         "context_dump":"CONTEXT DUMP\n  EIP: 5c5c5c5c Unable to disassemble at 5c5c5c5c\n  EAX: 01a2f940 (  27457856) -> GTER \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\cumeSzr9 (stack)\n  EBX: 00000058 (        88) -> N/A\n  ECX: 005b1378 (   5968760) -> [PO[odules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\6\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\ModulesPUBLIC=C:\\Users\\PublicRAW_TOOLS_DIR=C:\\ToolsSESSIONNAME=ConsoleSystemDrive=C:SystemRoot=C:\\WindowsTEMP=C:\\Users (heap)\n  EDX: 00003594 (     13716) -> N/A\n  EDI: 00000000 (         0) -> N/A\n  ESI: 00000000 (         0) -> N/A\n  EBP: 5c5c5c5c (1549556828) -> N/A\n  ESP: 01a2f9e0 (  27458016) -> \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\cumeSzr9 (stack)\n  +00: 5c5c5c5c (1549556828) -> N/A\n  +04: 5c5c5c5c (1549556828) -> N/A\n  +08: 5c5c5c5c (1549556828) -> N/A\n  +0c: 5c5c5c5c (1549556828) -> N/A\n  +10: 5c5c5c5c (1549556828) -> N/A\n  +14: 656d7563 (1701672291) -> N/A\n",
+         "exception_address":1549556828,
+         "write_violation":0,
+         "disasm":"Unable to disassemble at 5c5c5c5c",
+         "violation_address":1549556828,
+         "context":{
+
+         },
+         "violation_thread_id":3796,
+         "disasm_around":[
+            [
+               1549556828,
+               "Unable to disassemble"
+            ]
+         ],
+         "seh_unwind":[
+            [
+               4294967295,
+               2010440029,
+               "ntdll.dll:77d4e15d"
+            ]
+         ]
+      }
+   ]
+}
